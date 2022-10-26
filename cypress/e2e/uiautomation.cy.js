@@ -27,7 +27,7 @@ describe('Jojonomic UI Automation Skill Test', () => {
         UIAutomation.elements.serviceCentreName().should('contain.text', 'Haymarket Service Centre')
     });
     
-    it.only('Should be able to Find Locations Service Centre by suburb Sydney Domestic Airport 2020', () => {
+    it('Should be able to Find Locations Service Centre by suburb Sydney Domestic Airport 2020', () => {
         // Data-driven step 3, 4, and 5
         UIAutomation.elements.findLocationsButton().should('be.visible')
         UIAutomation.clickFindLocations()
