@@ -1,0 +1,15 @@
+{
+  "name": "uiautomation",
+  "version": "1.0.0",
+  "description": "Jojonomic UI Automation Skill Test",
+  "main": "index.js",
+  "author": "mokhamadaulia",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
