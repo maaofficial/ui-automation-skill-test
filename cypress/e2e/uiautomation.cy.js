@@ -34,7 +34,7 @@ describe('Jojonomic UI Automation Skill Test', () => {
         UIAutomation.elements.searchBarFindLocations().wait(500).should('be.visible').clear()
         UIAutomation.searchSuburbFIndLocations('Sydney Domestic Airport 2020')
         UIAutomation.clickSearchButtonFindLocations()
-        UIAutomation.elements.serviceCentreName().should('contain.text', 'Haymarket Service Centre')
+        UIAutomation.elements.serviceCentreName().should('contain.text', 'Rockdale Service Centre')
     });
 
 });
